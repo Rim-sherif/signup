@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="css/style.css" rel="stylesheet">
+  <title>sign up</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="d-flex justify-content-center align-items-start flex-column position-relative">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 51 51" fill="none" class="rotate-icon">
+            <path d="M27.4837 9.88683L41.1858 23.6846C41.3934 23.8937 41.5405 24.1199 41.6271 24.3633C41.7138 24.6066 41.7559 24.8672 41.7536 25.145C41.7526 25.4227 41.708 25.683 41.6196 25.9258C41.5313 26.1685 41.3833 26.3937 41.1756 26.6013L27.3778 40.3033C26.9945 40.6839 26.516 40.8816 25.9424 40.8962C25.3687 40.9109 24.875 40.7099 24.4611 40.2931C24.0458 39.9098 23.8301 39.4312 23.814 38.8575C23.798 38.2839 23.9997 37.7901 24.4192 37.3763L34.663 27.2036L11.3819 27.1225C10.7917 27.1204 10.2972 26.9187 9.89861 26.5173C9.50001 26.1159 9.30243 25.6208 9.30587 25.0319C9.30792 24.4416 9.50895 23.9472 9.90895 23.5486C10.309 23.15 10.8048 22.9524 11.3964 22.9559L34.6776 23.037L24.5049 12.7931C24.1242 12.4099 23.9259 11.9231 23.9099 11.3327C23.8939 10.7424 24.0956 10.257 24.515 9.87648C24.8984 9.46115 25.3852 9.25451 25.9755 9.25657C26.5658 9.25862 27.0685 9.46871 27.4837 9.88683Z" fill="#15224F"/>
+          </svg>
+          <p class="text-center mt-3 position-relative">Create Account</p>
+          <img src="img/Frame 680.jpg" alt="Image" class="img-fluid mt-2" width="350px">
+        </div>
+      </div>
+      
+      
+      <div class="col-md-6">
+        <div class="container mt-5">
+
+          <form style="max-width: 440px; max-height: fit-content;">
+            <div class="form-row">
+              <div class="col">
+                <label for="firstName">First Name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="First Name">
+              </div>
+              <div class="col">
+                <label for="lastName">Last Name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+              </div>
+            </div>
+            <div class="form-row mt-3">
+              <div class="col">
+                <label for="username">Username</label>
+                <input type="text" class="form-control" id="username" placeholder="Username">
+              </div>
+            </div>
+            <div class="form-row mt-3">
+              <div class="col">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Password">
+                <small class="form-text text-muted">
+                  <a href="#">Forgot password?</a>
+                </small>
+              </div>
+            </div>
+
+
+            <div class="form-row mt-3">
+              <div class="col">
+                <label for="phoneNumber">PhoneNumber</label>
+                <input type="tel" class="form-control" id="phoneNumber" placeholder="Phone Number">
+              </div>
+            </div>
+
+            <div class="form-row mt-3">
+              <div class="col">
+                <label for="country">title job</label>
+                <select class="form-control" id="country">
+                  <option>Option 1</option>
+                  <option>Option 2</option>
+                  <option>Option 3</option>
+                </select>
+              </div>
+              <div class="col">
+                <label for="state">Covernment</label>
+                <select class="form-control" id="state">
+                  <option>cairo</option>
+                  <option>Alexandria</option>
+                  <option>El-Garbia</option>
+                  <option>Mars Matroh</option>
+                  <option>Luxor</option>
+                  <option>Aswan</option>
+                  <option>Sohag</option>
+                  <option>Giza</option>
+                  <option>Menoufia</option>
+                  <option>Port Said</option>
+                  <option>Sharqia</option>
+                  <option>Qana</option>
+                  <option>El-Esmaila</option>
+                  <option>EL-Daqahlia</option>
+                  <option>El-Behaira</option>
+                  <option>Domiat</option>
+                  <option>Mansoura</option>
+                  <option>Minya</option>
+                  <option>Asyut</option>
+                  <option>El-Behaira</option>
+                  <option>Suez</option>
+                  <option>Faiyum</option>
+                  <option>Kafr El-Shaikh</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row mt-3">
+              <div class="col">
+                <label for="gender">Gender</label>
+                <select class="form-control" id="gender">
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row mt-3">
+              <div class="col">
+                <label for="photo">Upload Your ID</label>
+                <input type="file" class="form-control-file" id="photo">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</body>
+</html>
